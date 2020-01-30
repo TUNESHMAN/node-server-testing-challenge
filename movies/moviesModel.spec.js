@@ -22,7 +22,7 @@ describe('Movies model', () => {
     })
 
     it('can find a movie in the db', async () => {
-      // first we need a hobbit actually there
+      // first we need a movie actually there
       // remember the db gets truncated after each test
       // don't entangle yourself with other model functions
       await db('movies').insert({ name: 'Terminator' })

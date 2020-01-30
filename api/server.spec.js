@@ -35,7 +35,7 @@ describe('server.js module', () => {
     it('returns the right headers', () => {
       // multi-assertion test
       return request(server).get('/')
-        .expect('Content-Length', '12')
+        .expect('Content-Length', '27')
         .expect('Content-Type', /json/)
     })
   })
